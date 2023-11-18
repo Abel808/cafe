@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 18vh;
+    background-image: url('https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg');
+    background-size: cover;
+    box-shadow:5px 0px 10px 0 black;
+    padding-bottom: 100px;
+   
+    
+}
+
+body{
+    background-color: #EDD4D4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search{
+
+    width:70vw ;
+    height: 3vh;
+    background-color: brown;
+    border-radius: 5px;
+    margin: auto;
+    border: none;
+    color: white;
+   
+    padding: 10px;
+}
+
+
+
+.container{
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    height: 82vh;
+    
+}
+
+
+.cafe{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+     padding: 25px; 
+}
+
+
+.coffee{
+    width: 150px;
+    height: 150px;
+     border-radius: 50%; 
+     box-shadow: 0px 8px 10px 0 black;
+} 
+
+.coffee:hover{
+    transform: translatey(-5px);
+    box-shadow: 0px 8px 20px 5px black;
+}
+
+
+.cafe .text{
+    height: 15vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-weight: bold;
+    gap: 20px;
+}
+
+.house,.list{
+    width: 90vw;
+    text-align: justify;
+    background-color: #D7A1A1;
+    padding: 30px;
+    border-radius: 10px;
+    color:rgba(165, 42, 42, 1);
+    margin-bottom: 50px;
+    box-shadow: 0 0 8px 0 rgb(165,42,42,1);
+}
+
+
+ul{
+    padding-bottom: 15px;
+    padding-left: 20px;
+    
+}
+
+li{
+    text-decoration-style: none;
+    padding: 5px;
+    list-style-type:decimal;
+}
+
+p{
+    padding-bottom: 15px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:900;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
