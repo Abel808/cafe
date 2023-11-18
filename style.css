@@ -8,14 +8,15 @@
 .header{
     display: flex;
     align-items: center;
-    height: 18vh;
+    height: 250px;
     background-image: url('https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg');
     background-size: cover;
     box-shadow:5px 0px 10px 0 black;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
    
-    
 }
+
+
 
 body{
     background-color: #EDD4D4;
@@ -23,15 +24,13 @@ body{
 }
 
 .search{
-
     width:70vw ;
-    height: 3vh;
+    height: 50px;
     background-color: brown;
     border-radius: 5px;
     margin: auto;
     border: none;
     color: white;
-   
     padding: 10px;
 }
 
@@ -40,17 +39,18 @@ body{
 .container{
    display: flex;
    flex-direction: column;
-    align-items: center;
-    height: 82vh;
-    
+    align-items: center;  
 }
 
 
 .cafe{
-    width: 90vw;
+    width: 90%;
+    height: 300px;
     display: flex;
     justify-content: space-around;
-     padding: 25px; 
+     display: flex;
+     align-items: center; 
+    
 }
 
 
@@ -68,12 +68,11 @@ body{
 
 
 .cafe .text{
-    height: 15vh;
+    height: 300px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     font-weight: bold;
-    gap: 20px;
 }
 
 .house,.list{
